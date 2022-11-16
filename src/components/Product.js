@@ -13,7 +13,7 @@ export const Product = (props) => {
 }
 
 //Fonction prend en paramètre un objet qui sont les propriétés de l'objet
-export const ProductObj = ({name, price, action, currency = "€"}) => {
+export const ProductObj = ({name, price, currency = "€"}) => {
     return (
         <div className="card">
             <h3>{name}</h3>

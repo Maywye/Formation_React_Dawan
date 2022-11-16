@@ -35,6 +35,15 @@ const Navigation = () => {
                 <li>
                     <div className="deco"></div>
                 </li>
+                <li>
+                    <NavLink to="/login">Login</NavLink>
+                </li>
+                <li>
+                    <div className="deco"></div>
+                </li>
+                <li>
+                    <NavLink to="/effects">Effects</NavLink>
+                </li>
             </ul>
         </nav>
     )

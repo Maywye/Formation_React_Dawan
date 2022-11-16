@@ -7,6 +7,9 @@ import Logo from './components/Logo';
 import Static from './pages/Static';
 import State from './pages/State';
 import Props from './pages/Props';
+import Connexion from './pages/Connexion';
+import { BackBtn } from './components/Buttons';
+import Effects from './pages/Effects';
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
             <Route path="/static" element={<Static/>}></Route>
             <Route path="/hooks" element={<State/>}></Route>
             <Route path="/props" element={<Props/>}></Route>
+            <Route path="/login" element={<Connexion/>}></Route>
+            <Route path="/effects" element={<Effects/>}></Route>
           </Routes>
+          <BackBtn />
         </div>
       </BrowserRouter>
     </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Btn } from "../components/Buttons";
 import { Product, ProductObj, ProductTyped } from "../components/Product";
 
 const Props = () => {
@@ -85,8 +86,14 @@ const Props = () => {
 
                     <h3>Produits typés :</h3>
                     <div className="grid">
-                        <ProductTyped name={"Machin"}/>
+                        <ProductTyped name={"Machin"} price={27}/>
+                        <ProductTyped name={"Bidule"} price= {300} action={() => alert("coucou")} />
                     </div>
+                </article>
+                <article>
+                    <h2>Test Bouton: </h2>
+                    <Btn action={testBtn} loading={isLoading} txt={"clic clic"}/>
+                    <Btn action={testBtn} disabled={true} txt={"Disabled"}/>
                 </article>
             </main>
         </>
