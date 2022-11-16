@@ -44,6 +44,15 @@ const Navigation = () => {
                 <li>
                     <NavLink to="/effects">Effects</NavLink>
                 </li>
+                <li>
+                    <div className="deco"></div>
+                </li>
+                <li>
+                    <NavLink to="/request">Request</NavLink>
+                </li>
+                <li>
+                    <div className="deco"></div>
+                </li>
             </ul>
         </nav>
     )
