@@ -52,3 +52,11 @@ input {
   padding: 10px;
   border-radius: 5px;
 }
+
+code {
+  font-size: 16px;
+  background-color: rgba(211, 211, 211, 0.584);
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}

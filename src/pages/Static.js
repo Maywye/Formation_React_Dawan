@@ -34,7 +34,7 @@ const Static = () => {
                     <div className="grid">
                         {
                             fruits_bis.map(f => (
-                                <div className="card" key={f.id}>{f.name}, {f.price} </div>
+                                <div className="card" key={f.id}>{f.name}: {f.price} </div>
                             ))
                         }
                     </div>
