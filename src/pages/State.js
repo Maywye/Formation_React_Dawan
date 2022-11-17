@@ -29,7 +29,7 @@ const Hooks = () => {
         const input = form[0]; //element HTML input
         console.log(input);
         const new_message = input.value;
-        setMessage(new_message); //fonction issue de useState
+        setMessage(new_message); //fonction issue de useState0
         input.value = "";
     }
 
