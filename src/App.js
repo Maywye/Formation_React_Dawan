@@ -15,6 +15,7 @@ import Forms from './pages/Forms';
 import Footer from './components/Footer';
 import UserDetail from './pages/UserDetail';
 import NotFound from './pages/NotFound';
+import Redux from './pages/Redux';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path="/request" element={<Request/>}></Route>
             <Route path="/forms" element={<Forms/>}></Route>
             <Route path="*" element={<NotFound/>}></Route>
+            <Route path="/redux" element={<Redux/>}></Route>
             <Route path="/user/:id" element={<UserDetail/>}></Route>
           </Routes>
           <BackBtn />
