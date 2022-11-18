@@ -25,6 +25,20 @@ const Presentation = () => {
             <h1>Présentation</h1>
             <main>
                 <article>
+                    <h2>Mise en place</h2>
+                    <p><b>Node :</b> Outil qui permet de lancer du Javascript en dehors du navigateur, via une machine virtuelle V8 (moteur JS de Chrome)</p>
+                    <p><b>NPM :</b> Node Package Manager : permet de gérer une application node en ligne de commande de lancer des scripts, et de gérer des librairies</p>
+                    <p><b>NPX : </b> Node package Executer : pour executer des librairies</p>
+                    <h4>Pour créer une application Réact :</h4>
+                    <p className="warning">Besoin de NodeJS avec version {">"} 14</p>
+                    <ul>
+                        <li>Ouvrir PowerShell, ou invite de commande dans le dossier </li>
+                        <li>Taper : <code>npx create-react-app mon-app</code> </li>
+                        <li><code>cd mon-app</code></li>
+                        <li><code>npm start</code></li>
+                    </ul>
+                </article>
+                <article>
                     <h2>Les JSX</h2>
                     <p>Un composant: C'est un block de code réutilisable</p>
                     <p>Il est conseillé en React d'utiliser la syntaxe JSX.</p>
