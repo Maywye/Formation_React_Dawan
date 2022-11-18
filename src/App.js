@@ -39,7 +39,7 @@ function App() {
             <Route path="/redux" element={<Redux/>}></Route>
             <Route path="/user/:id" element={<UserDetail/>}></Route>
           </Routes>
-          <BackBtn />
+          <BackBtn /> 
         </div>
         <Footer />
       </BrowserRouter>
