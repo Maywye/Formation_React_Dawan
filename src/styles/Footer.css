@@ -2,7 +2,7 @@ footer{
     margin-top: 50px;
 }
 .footer{
-    background-color: var(--main);
+    background-color: var(--error);
     position:absolute;
     bottom:0;
     width:100%;
@@ -10,7 +10,7 @@ footer{
 }
 
 .copyright{
-    color: var(--light);
+    color: var(--dark);
     margin: 20px;
     text-align: center;
 }
